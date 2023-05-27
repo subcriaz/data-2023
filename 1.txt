@@ -2,4 +2,10 @@ https://github.com/subcriaz/data-2023.git
 
 git clone https://github.com/subcriaz/data-2023.git
 
-okccfdfd
+============
+
+
+git commit -m "commit message"
+
+
+git push origin main
