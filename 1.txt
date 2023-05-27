@@ -3,7 +3,7 @@ https://github.com/subcriaz/data-2023.git
 git clone https://github.com/subcriaz/data-2023.git
 
 ============
-
+git add .
 
 git commit -m "commit message"
 
