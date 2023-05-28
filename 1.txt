@@ -1,3 +1,16 @@
+Dear Riaz ul Hassan (Systems92 dotcom),
+
+You're receiving this email because you have requested your password reset. You can access your cPanel control panel using the following credentials.
+
+cPanel Control Panel Login
+
+Control Panel URL: https://cp7.mywebsitebox.com/cpanel   -OR- http://systems92.com/cpanel
+Username: systemsc
+Password: od*m*w6256F
+
+Thank you for choosing us as your service provider.
+
+
 https://github.com/subcriaz/data-2023.git
 
 git clone https://github.com/subcriaz/data-2023.git

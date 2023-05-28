@@ -1,0 +1,10 @@
+[27-May-2023 21:05:23 UTC] PHP Warning:  include_once(../class/items.php): failed to open stream: No such file or directory in /home/systemsc/public_html/api1/items/read1.php on line 6
+[27-May-2023 21:05:23 UTC] PHP Warning:  include_once(): Failed opening '../class/items.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/systemsc/public_html/api1/items/read1.php on line 6
+[27-May-2023 21:07:19 UTC] PHP Warning:  include_once(../class/items.php): failed to open stream: No such file or directory in /home/systemsc/public_html/api1/items/read3.php on line 8
+[27-May-2023 21:07:19 UTC] PHP Warning:  include_once(): Failed opening '../class/items.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/systemsc/public_html/api1/items/read3.php on line 8
+[27-May-2023 21:07:19 UTC] PHP Warning:  include_once(api1/class/items.php): failed to open stream: No such file or directory in /home/systemsc/public_html/api1/items/read3.php on line 16
+[27-May-2023 21:07:19 UTC] PHP Warning:  include_once(): Failed opening 'api1/class/items.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/systemsc/public_html/api1/items/read3.php on line 16
+[27-May-2023 21:07:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Items' not found in /home/systemsc/public_html/api1/items/read3.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/systemsc/public_html/api1/items/read3.php on line 25
