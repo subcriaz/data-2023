@@ -1,0 +1,187 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title> :::: www.systems92.com ::::</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head> 
+<style>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+</style>
+
+<form action="6.php" method="post">
+
+
+<h2>HTML Table</h2>
+<body>
+<table>
+  <tr>
+    <th>Day</th>
+    <th>Supplier</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td><pre> <a href='#mnp' > mnp </a>  <a href='#pkag' > pak Agency </a>   <a href='#nimra' > nimra </a>  <a href='#platinum' > platinum </a> </pre>  </td>
+    <td>Comments... </td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+<td><pre> 
+<a href='#mnp' > mnp </a>   <a href='#drug' > drug services </a>   <a href='#vikor' > vikor </a>  <a href='#hp' > hp </a> <a href='#aligohar' > aligohar </a> 
+ </pre></td> 
+ <td>comm </td>
+
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td><pre> <a href='#pnet' > pnet </a> <a href='#sanofi' > sanofi </a>  <a href='#ibl' > ibl </a>  <a href='#nt' > nt </a>  </a>  <a href='#gsk' > gsk </a>   <a href='#udl' > udl </a>   <a href='#dspharma' > ds pharma </a>  <a href='#global' > global </a>  <a href='#hp' > hp </a> </pre>  </td>
+    <td>Comments... </td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+      <td><pre> <a href='#pevo' > pevo </a>  <a href='#gendist' > gen dist </a>   <a href='#mnp' > mnp </a>  <a href='#' > ... </a>  <a href='#praz' > prazelsus </a> </pre>  </td>
+    <td>Comments... </td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+     <td><pre> <a href='#hinoon' > hi noon </a>  <a href='#sami' > sami </a>   <a href='#mnp' > mnp </a>   <a href='#dspharma' > ds pharma </a> </pre>  </td>
+    <td>Comments... </td>
+  </tr>
+  <tr>
+    <td>Saturday</td>
+     <td><pre> <a href='#sanofi' > sanofi </a> <a href='#drug' > drug services </a>  <a href='#udl' > udl </a>   <a href='#qarshi' > qarshi </a>  <a href='#hp' > hp </a>  <a href='#iqbal' > iqbal </a>  <a href='#nt' > nt </a>  </a>  <a href='#gsk' > gsk </a> </pre></td>
+    <td>Comments... </td>
+  </tr>
+ 
+<tr>
+    <td>Sunday</td>
+    <td>*************</td>
+    <td>*******</td>
+  </tr>
+
+<tr>
+    <td>*****</td>
+    <td>*****</td>
+    <td>*****</td>
+  </tr>
+
+<tr>
+<td><div id='aligohar'><input type='radio' name='distname' value=ali gohar> 1-ali gohar</label> </div> </td>
+<td><div id='alkareem'><input type='radio' name='distname' value=alkareem> 2-alkareem</label> </div></td>
+<td><div id='drug'> <input type='radio' name='distname' value=drug> 3-drug</label> </div></td>
+</tr>
+
+<tr>
+<td><div id='dspharma'><input type='radio' name='distname' value=ds_pharma> 4-ds pharma</label> </div></td>
+<td><div id='fawad'><input type='radio' name='distname' value=fawad> 5-fawad</label> </div> </td>
+<td><div id='gendist'><input type='radio' name='distname' value=gen> 6-gen dist</label> </div></td>
+</tr>
+
+<tr>
+<td><div id='global'><input type='radio' name='distname' value=global>7-global</label> </div></td>
+<td><div id='hinoon'><input type='radio' name='distname' value=hinoon>8-hinoon</label> </div></td>
+<td><div id='hp'><input type='radio' name='distname' value=hp>9-hp</label> </div></td>
+</tr>
+
+<tr>
+
+
+
+<td><div id='ibl'><input type='radio' name='distname' value=ibl>10-ibl</label> </div></td>
+<td> <div id='iqbal'><input type='radio' name='distname' value=11-iqbal>iqbal</label> </div>      </td>
+<td> <div id='miseast'><input type='radio' name='distname' value=mid east>12-mid east</label> </div></td>
+
+</tr>
+
+<tr>
+    <td><div id='mnp'><input type='radio' name='distname' value=mnp>13-mnp</label> </div></td>
+    <td> <div id='nimra'><input type='radio' name='distname' value=nimra>14-nimra</label></div> </td>
+    <td> <div id='nt'><input type='radio' name='distname' value=nt>15-nt</label> </div>           </td>
+
+</tr>
+
+<tr>
+<td> <div id='pevo'><input type='radio' name='distname' value=pevo>16-pevo</label> </div>              </td>
+<td> <div id='pkag'><input type='radio' name='distname' value=pkag>17-pkag</label> </div>                    </td>
+<td> <div id='platinum'><input type='radio' name='distname' value=platinum>18-platinum</label> </div>        </td>
+
+</tr>
+
+
+<tr>
+<td> <div id='pnet'><input type='radio' name='distname' value=pnet>19-pnet</label> </div>              </td>
+<td> <div id='praz'><input type='radio' name='distname' value=praz>20-praz</label> </div>                    </td>
+<td>  <div id='prem_nutri'><input type='radio' name='distname' value=prem_nutri>21-prem nutrition</label> </div>       </td>
+
+</tr>
+
+
+<tr>
+<td> <div id='qarshi'><input type='radio' name='distname' value=qarshi>22-qarshi</label> </div> </td>
+<td> <div id='sami' ><input type='radio' name='distname' value=sami>23-sami</label> </div> </td>
+<td> <div id='sanofi'><input type='radio' name='distname' value=sanofi>24-sanofi</label> </div>   </td>
+</tr>
+
+
+<tr>
+<td> <div id='surgi'><input type='radio' name='distname' value=surgi>25-surgical</label> </div>       </td>
+<td> <div id='udl'><input type='radio' name='distname' value=udl>26-udl</label> </div>        </td>
+<td> <div id='vikor'><input type='radio' name='distname' value=vikor>27-vikor</label> </div>                   </td>
+
+</tr>
+
+<tr>
+<td> <div id='english'><input type='radio' name='distname' value=english>28-english</label> </div>       </td>
+<td> <div id='protect'><input type='radio' name='distname' value=udl>29-protect</label> </div>        </td>
+<td> <div id='skincare'><input type='radio' name='distname' value=skincare>30-skincare</label> </div>                   </td>
+
+</tr>
+
+<tr>
+<td> <div id='eden'><input type='radio' name='distname' value=eden>31-edenrock</label> </div>       </td>
+<td> <div id='gsk'><input type='radio' name='distname' value=gsk>32-gsk</label> </div>        </td>
+<td> <div id='xskincare'><input type='radio' name='distname' value=skincare>33-???skincare</label> </div>                   </td>
+
+</tr>
+
+
+
+</table>
+<fieldset>
+<legend>Select a distributor:</legend>
+
+</br>
+</br>
+<div><input type="text" name="user" value=""><label for="user">user name</label> </div>
+</br>
+    <input type="submit" name="action" value="List" />
+	
+	</fieldset>
+</form>
+</body>
+</html>
