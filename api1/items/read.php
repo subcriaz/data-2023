@@ -2,13 +2,17 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-//echo "b4 wfdzew  w2ew2re32re32";
+//$data = "Bismillah";
+
+//echo "<script>console.log('{$data}');</script>";
 
  include_once '../config/Database.php';
- //include_once '../class/items.php';
- //include_once 'items.php';
- //echo "  a4 ";
 
+ //include_once 'items.php' ; 
+ //echo dirname(__FILE__).'../';
+
+
+ 
  class Items{   
     
     private $itemsTable = "items";      
@@ -27,6 +31,7 @@ header("Content-Type: application/json; charset=UTF-8");
     }	
 	
 	function read(){	
+		//echo "id " .$this->id;
 		if($this->id) {
 			$stmt = $this->conn->prepare("SELECT * FROM ".$this->itemsTable." WHERE id = ?");
 			$stmt->bind_param("i", $this->id);					
@@ -100,6 +105,9 @@ header("Content-Type: application/json; charset=UTF-8");
 		return false;		 
 	}
 }
+
+ 
+
 $database = new Database();
 $db = $database->getConnection();
 //echo "  db con ok 123";
